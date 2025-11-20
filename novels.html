@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Literary Vault | Novels</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+<!-- HEADER -->
+<header class="bg-teal-800 text-white">
+  <nav class="max-w-5xl mx-auto flex flex-wrap justify-between items-center p-4 text-sm">
+    <h1 class="font-bold text-lg text-white">The Literary Vault</h1>
+    <div class="flex gap-4 flex-wrap">
+      <a href="index.html" class="hover:text-gray-200">Home</a>
+      <a href="novels.html" class="underline text-white font-semibold">Novels</a>
+      <a href="short-stories.html" class="hover:text-gray-200">Short Stories</a>
+      <a href="genres.html" class="hover:text-gray-200">Genres</a>
+      <a href="authors.html" class="hover:text-gray-200">Authors</a>
+      <a href="readinglog.html" class="hover:text-gray-200">Reading Log</a>
+    </div>
+  </nav>
+</header>
+
+<!-- COMPONENT STYLES -->
+<style type="text/tailwindcss">
+  .card { @apply bg-white shadow-lg p-6 rounded-lg transition hover:scale-105; }
+  .btn { @apply bg-teal-600 text-white px-3 py-1 rounded hover:bg-teal-700; }
+</style>
+
+<main class="max-w-5xl mx-auto p-6">
+
+  <!-- Featured Recommendation -->
+  <aside class="card mb-8">
+    <h2 class="text-teal-800 font-bold text-xl mb-2">Featured Recommendation</h2>
+    <p>
+      <strong>The Night Circus</strong> — Dive into a magical, mysterious world of a traveling circus that only opens at night. The enchanting story explores rivalry, love, and the limits of imagination. A mesmerizing read for anyone who loves richly imagined settings and unforgettable characters.
+    </p>
+  </aside>
+
+  <!-- Grid of novels -->
+  <section class="grid md:grid-cols-3 gap-8">
+    <div class="card">
+      <h3 class="font-semibold text-teal-800 mb-2">1984</h3>
+      <p class="text-gray-700">
+        A dystopian classic by George Orwell depicting a totalitarian world where surveillance and propaganda dominate daily life. The story explores the struggle for freedom, individuality, and truth in an oppressive society.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 class="font-semibold text-teal-800 mb-2">Pride and Prejudice</h3>
+      <p class="text-gray-700">
+        Jane Austen’s beloved novel follows Elizabeth Bennet as she navigates love, social expectations, and family life in 19th century England. Witty, romantic, and full of memorable characters, it’s a timeless story about pride, prejudice, and the pursuit of happiness.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 class="font-semibold text-teal-800 mb-2">The Great Gatsby</h3>
+      <p class="text-gray-700">
+        F. Scott Fitzgerald’s masterpiece portrays the glitz and glamour of the Jazz Age while telling a poignant story of love, ambition, and the illusion of the American Dream. The novel explores the gap between reality and illusion with elegant prose and unforgettable characters.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 class="font-semibold text-teal-800 mb-2">To Kill a Mockingbird</h3>
+      <p class="text-gray-700">
+        Harper Lee’s Pulitzer Prize-winning novel captures the complexity of human nature through the eyes of young Scout Finch. Set in the racially divided American South, it explores themes of justice, morality, empathy, and the loss of innocence.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 class="font-semibold text-teal-800 mb-2">The Hobbit</h3>
+      <p class="text-gray-700">
+        J.R.R. Tolkien’s fantasy classic follows Bilbo Baggins on an unexpected adventure through Middle-earth. Filled with trolls, dragons, and riddles, the story introduces readers to a richly imagined world that has captivated generations of readers.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 class="font-semibold text-teal-800 mb-2">Jane Eyre</h3>
+      <p class="text-gray-700">
+        Charlotte Brontë’s novel tells the story of Jane Eyre, a strong-willed orphan who overcomes hardship to find love and independence. Combining romance, mystery, and social commentary, it remains a classic tale of resilience and integrity.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- responsive 3-column grid, polished card hover effect, and teal accents with the website theme -->
+
+</main>
+
+<!-- FOOTER -->
+   <footer class="bg-gray-200 p-3 text-center text-sm mt-10">
+      <small>
+         &copy;2025 LitVault -
+        Contact: literaryvault@example.com · Updated:
+        <time datetime="2025-11-19">Nov 19, 2025</time>
+      </small>
+    </footer>
+
+</body>
+</html>

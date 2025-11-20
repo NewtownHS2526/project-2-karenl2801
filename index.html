@@ -3,27 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Hub</title>
+    <title>Literary Vault</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <header>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="#">Page 2</a>
-        <a href="#">Page 3</a>
-        <a href="#">Page 4</a>
-        <a href="#">Page 5</a>
-        <a href="#">Page 6</a>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h1>Project Overview</h1>
-        <p>Welcome! Replace this text with your project introduction.</p>
+
+<body class="bg-gray-100 text-gray-800">
+      
+<header class="bg-teal-800 text-white">
+  <nav class="max-w-5xl mx-auto flex flex-wrap justify-between items-center p-4 text-sm">
+    <h1 class="text-xl font-bold">The Literary Vault</h1>
+    <div class="flex gap-4 flex-wrap">
+      <a href="index.html" class="underline font-semibold text-white">Home</a>
+      <a href="novels.html" class="hover:text-gray-200">Novels</a>
+      <a href="short-stories.html" class="hover:text-gray-200">Short Stories</a>
+      <a href="genres.html" class="hover:text-gray-200">Genres</a>
+      <a href="authors.html" class="hover:text-gray-200">Authors</a>
+      <a href="readinglog.html" class="hover:text-gray-200">Reading Log</a>
+    </div>
+  </nav>
+</header>
+
+     <!-- main -->
+    <main class="max-w-4xl mx-auto p-6">
+
+      <section class="card text-center">
+        <h1 class="text-3xl font-bold mb-4 text-teal-800">The Literary Vault</h1>
+        <p class="text-gray-700 mb-4">Welcome! This is the <strong>Literary Vault</strong>, a place for book lovers to explore novels, genres, learn about authors, and get book recommendations. You can also track your reading!</p>
+        <p class="text-gray-700">
+          Browse through curated collections of novels and short stories, dive into genre guides, get inspired by author spotlights, and even track your personal reading journey. Every page is built to be simple, welcoming, and easy to navigate—because discovering books should feel like stepping into a warm library.
+        </p>
       </section>
+    
     </main>
-    <footer>
-      <small>&copy; 2025 Project Hub</small>
+      <footer class="bg-gray-200 p-3 text-center text-sm mt-10">
+      <small>
+         &copy;2025 LitVault -
+        Contact: literaryvault@example.com · Updated:
+        <time datetime="2025-11-19">Nov 19, 2025</time>
+      </small>
     </footer>
+
   </body>
 </html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Literary Vault | Short Stories</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+<!-- HEADER -->
+<header class="bg-teal-800 text-white">
+  <nav class="max-w-5xl mx-auto flex flex-wrap justify-between items-center p-4 text-sm">
+    <h1 class="font-bold text-lg text-white">The Literary Vault</h1>
+    <div class="flex gap-4 flex-wrap">
+      <a href="index.html" class="hover:text-gray-200">Home</a>
+      <a href="novels.html" class="hover:text-gray-200">Novels</a>
+      <a href="short-stories.html" class="underline text-white font-semibold">Short Stories</a>
+      <a href="genres.html" class="hover:text-gray-200">Genres</a>
+      <a href="authors.html" class="hover:text-gray-200">Authors</a>
+      <a href="readinglog.html" class="hover:text-gray-200">Reading Log</a>
+    </div>
+  </nav>
+</header>
+
+<!-- COMPONENT STYLES -->
+<style type="text/tailwindcss">
+  .card { @apply bg-white shadow-lg p-6 rounded-lg transition hover:scale-105; }
+  .btn { @apply bg-teal-600 text-white px-3 py-1 rounded hover:bg-teal-700; }
+</style>
+
+<main class="max-w-5xl mx-auto p-6">
+
+  <!-- highlighted text using MARK -->
+  <p class="mb-6 text-gray-700 text-lg">
+    Short stories often <mark class="bg-teal-200 font-semibold">capture a single powerful moment</mark>
+    in just a few pages, creating lasting impact with careful detail and short storytelling.
+  </p>
+
+  <!-- grid of short stories -->
+  <section class="grid md:grid-cols-2 gap-6">
+
+    <div class="card">
+      <h3 class="text-teal-800 font-semibold mb-2">The Lottery</h3>
+      <p class="text-gray-700">
+        Shirley Jackson’s chilling tale reveals how tradition and blind conformity can lead to horrifying outcomes. The suspense builds quietly, making the final twist unforgettable.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 class="text-teal-800 font-semibold mb-2">The Tell-Tale Heart</h3>
+      <p class="text-gray-700">
+        Edgar Allan Poe masterfully explores guilt and paranoia as a murderer descends into madness. A tense, psychological story that stays with you long after reading.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 class="text-teal-800 font-semibold mb-2">A Very Old Man with Enormous Wings</h3>
+      <p class="text-gray-700">
+        Gabriel García Márquez tells a magical-realist story about an angelic figure who appears in a village, highlighting human curiosity, cruelty, and compassion in a subtle, moving way.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 class="text-teal-800 font-semibold mb-2">Harrison Bergeron</h3>
+      <p class="text-gray-700">
+        Kurt Vonnegut’s satirical story explores a dystopian society obsessed with enforced equality. A sharp, thought-provoking narrative about individuality and freedom.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 class="text-teal-800 font-semibold mb-2">The Yellow Wallpaper</h3>
+      <p class="text-gray-700">
+        Charlotte Perkins Gilman presents a haunting tale of a woman’s descent into madness, critiquing societal treatment of women and mental health in the 19th century.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 class="text-teal-800 font-semibold mb-2">The Gift of the Magi</h3>
+      <p class="text-gray-700">
+        O. Henry’s timeless story of love and sacrifice captures the beauty of giving, illustrating how thoughtful gestures can carry immense emotional value beyond material wealth.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- Design note -->
+  <!-- two-column responsive grid, story summaries, MARK tag for highlighting. teal accents and card hover effect -->
+
+</main>
+
+<!-- FOOTER -->
+   <footer class="bg-gray-200 p-3 text-center text-sm mt-10">
+      <small>
+         &copy;2025 LitVault -
+        Contact: literaryvault@example.com · Updated:
+        <time datetime="2025-11-19">Nov 19, 2025</time>
+      </small>
+    </footer>
+
+</body>
+</html>
